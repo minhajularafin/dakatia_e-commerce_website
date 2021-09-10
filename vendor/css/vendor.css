@@ -1,0 +1,23 @@
+/* slick custoom css  */
+.slick-next{
+    margin-right: 8px;
+    right: 51%;
+}
+.slick-prev {
+    text-align: right;
+    margin-left:38px;
+}
+
+.slick-next::before
+{
+    content:"\f359";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: red;
+}
+.slick-prev::before {
+	content:"\f35a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: red;
+}

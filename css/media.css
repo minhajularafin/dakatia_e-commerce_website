@@ -1,0 +1,185 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+ /* header top css start */
+ .main-menu li ul {
+	left: 106px;
+	top:0;
+	width: 178px;
+}
+.main-menu li:hover ul{
+    top:20px;
+ }
+ 
+ .header-top{
+     display: none;
+ }
+ /* banner media css */
+.banner-caption{
+    margin: 50px 0;
+}
+.banner-caption h1 {
+	font-size: 36px;
+}
+.shop-btn {
+	margin-top: 10px;
+	width: 140px;
+	height: 42px;
+	line-height: 42px;
+}
+/* features media css start */
+ .px{
+    padding: 0;
+}
+
+/*discount media css */
+.discount-left-text {
+	margin: 50px 0;
+}
+.discount-left-text h1 {
+	font-size: 45px;
+}
+/* isotop filter media css */
+.tab-isotop button {
+	margin-bottom: 10px;
+}
+.tab-isotop button {
+	width: 120px;
+	height: 40px;
+}
+/* footer start */
+.footer-top {
+	padding: 45px 0;
+}
+.footer-widget .button1,
+.footer-widget .button2{ 
+width: 143px;
+}
+.social-icon ul li a {
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 5px;
+}
+.freature-icon {
+	padding: 0;
+}
+.blog {
+	padding:0;
+}
+
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+   /* banner media css */
+.banner-caption{
+    margin: 50px 0;
+}
+ /* features media css start */
+ .px{
+    padding: 0;
+}
+
+/* discount media css */
+.discount-left-text {
+	margin: 50px 0;
+}
+
+/* isotop filter media css */
+.tab-isotop button {
+	margin-bottom: 10px;
+}
+.freature-icon {
+	padding: 0;
+}
+.blog {
+	padding:0;
+}
+
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+   /* top header media css  */
+   .top-contact ul li {
+	margin: 0 5px;
+}
+.main-menu li ul {
+	left: 106px;
+	top:0;
+	width:200px;
+    box-shadow: 0 0 10px 2px rgba(92, 69, 69, 0.1);
+}
+
+.main-menu li:hover ul{
+    top:20px;
+ }
+
+/* banner media css */
+.banner-caption{
+    margin: 60px 0;
+}
+
+/* features media css start */
+ .px{
+    padding: 0;
+}
+
+/* discount media css */
+.d-img img {
+	width: 100%;
+    min-height: 300px;
+}
+/* features media css start */
+.p-15 {
+	padding: 10px;
+}
+.slick-prev, .slick-next {
+	top: 41%;
+}
+
+.quick-view-icon ul li a {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;	
+}
+.freature-icon {
+	padding: 0;
+}
+.blog {
+	padding:0;
+}
+
+/* footer media css start */
+.footer-widget h2 {
+	font-size: 16px;
+}
+.social-icon h2 {
+	font-size: 16px;
+}
+
+
+ }
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* banner media css */
+    .banner-caption h1 {
+        font-size: 55px;
+    }
+
+    .icon-item {
+        padding: 15px 30px;
+    }
+
+ }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+   
+ }
+
+ /* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+
+ }
